@@ -1,3 +1,7 @@
+DROP TABLE "shows";
+DROP TABLE shows_users;
+DROP TABLE times;
+DROP TABLE users;
 
 CREATE TABLE "shows" ("id" serial8 primary key, "created_at" date, "name" varchar(255), "price" decimal);
 INSERT INTO "shows" VALUES (1, '2015-08-23 20:09:41.969902', 'Le Haggis', 12.99);
